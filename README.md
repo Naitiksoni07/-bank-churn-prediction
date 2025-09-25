@@ -1,26 +1,27 @@
-Bank Churn Prediction
+# BANK-ATTRITION-PREDICION
+## Project Overview
+<p>This project aims to develop a machine learning model to predict bank customer churn. Customer churn, also known as customer attrition, refers to the phenomenon where customers stop doing business with a company or bank. By identifying potential churners in advance, banks can take proactive measures to retain valuable customers and minimize revenue loss. This repository provides a comprehensive solution for predicting customer churn using various machine learning algorithms.</p>
 
-Customer churn is one of the most critical challenges faced by the banking sector. Churn occurs when a customer discontinues their relationship with the bank, often leading to significant financial losses and additional costs to acquire new customers. This project focuses on analyzing customer data and applying machine learning techniques to predict whether a customer is likely to churn. By building predictive models, the project aims to help banks design proactive strategies for customer retention.
-
-Project Description
-
-The dataset used in this project includes a wide range of customer information such as demographics, account balance, credit score, tenure with the bank, number of products, and transaction history. The first step involves thorough data preprocessing: handling missing values, encoding categorical variables, scaling numerical features, and addressing class imbalance. After cleaning the data, Exploratory Data Analysis (EDA) is performed to identify trends, correlations, and key features that influence churn, such as lower credit scores, short tenure, and high balance fluctuations.
-
-Once the data is prepared, various machine learning models are trained and evaluated. Models such as Logistic Regression, Random Forest, Gradient Boosting, and XGBoost are compared based on performance metrics like accuracy, precision, recall, F1-score, and ROC-AUC. Feature importance analysis is also conducted to interpret the results and highlight the strongest churn indicators.
-
-The project not only emphasizes prediction accuracy but also provides business insights. For instance, it identifies high-risk customer groups and recommends targeted retention strategies, such as offering personalized financial products, improving customer service, or providing loyalty rewards.
-
-Tech Stack
-
-Programming Language: Python
-
-Libraries: Pandas, NumPy, Scikit-learn, Matplotlib, Seaborn, XGBoost
-
-Tools: Jupyter Notebook / VS Code
-
-Future Scope
-
-To extend the project, the model can be deployed as a web application using Streamlit, Flask, or Django for real-time predictions. Additionally, deep learning methods such as Artificial Neural Networks (ANNs) can be applied for improved performance. With further data enrichment, including transaction-level details, the prediction system can become even more powerful and reliable.
-
-By combining machine learning with practical business insights, this project demonstrates how data-driven approaches can play a vital role in reducing customer churn in the banking industry.
+<h2> Implementation Details</h2>
+<h3>Methods Used</h3>
+<li>Machine Learning</li>
+<li>Data Visualization</li>
+<li>Exploratory Data Analysis</li>
+<li>Predictive Modeling</li>
+<h3>Technologies</h3>
+<li>Python</li>
+<li>Jupyter</li>
+<h3>Python Packages Used</h3>
+<li>Data Manipulation: Pandas, numpy</li>
+<li>Data Visualization: seaborn, matplotlib</li>
+<li>Data Preprocessing: imblearn</li>
+<li>Machine Learning: scikit, xgboost</li>
+<h3>Steps Followed</h3>
+<strong>1. Data collection:</strong> Obtained the customer churn dataset from Source Dataset Link.<br><br>
+<strong>2. Exploratory Data Analysis (EDA): </strong> Performed the comprehensive exploratory analysis to gain insights into the dataset, identify patterns, correlations, and potential predictive features.<br><br>
+<strong>3. Data Preprocessing:</strong>Cleansed the data, handled categorical values, normalized the data, and addressed imbalanced data.<br><br>
+<strong>4. Model Development:</strong>Assessed the performance of each model using metrics such as accuracy, precision, recall, F1-score. Selected the best-performing model for deploymet.<br><br>
+<strong>5. Model Evaluation:</strong>Assessed the performance of each model using metrics such as accuracy, precision, recall, F1-score. Selected the best-performing model.<br><br>
+<h2>Results and Evaluation Criterion</h2>
+<p>Based on the evaluation results, the best-performing model was XGBoost which achieved an accuracy of 96% and F1-score of 89%</p>
 
