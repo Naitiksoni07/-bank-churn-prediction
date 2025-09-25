@@ -24,4 +24,3 @@ To extend the project, the model can be deployed as a web application using Stre
 
 By combining machine learning with practical business insights, this project demonstrates how data-driven approaches can play a vital role in reducing customer churn in the banking industry.
 
-Do you want me to also make this recruiter-friendly (highlighting your skills clearly), or keep it as a neutral project description?
